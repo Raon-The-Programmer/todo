@@ -8,7 +8,7 @@
   }
   
   .cart {
-   
+    border: 1px solid #ddd;
     padding: 10px;
     position: fixed;
     top: 10px;
@@ -39,5 +39,4 @@
   .product-image {
     margin-bottom: 10px;
   }
-  
   

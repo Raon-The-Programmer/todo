@@ -10,7 +10,6 @@ const productsData = [
   { id: 3, name: 'Product 3', description: 'Description for Product 3', price: '$9.99', stars: 4 },
   { id: 4, name: 'Product 4', description: 'Description for Product 4', price: '$69.99', stars: 2 },
   { id: 5, name: 'Product 5', description: 'Description for Product 5', price: '$27.99', stars: 4 },
-
 ];
 
 const App = () => {
@@ -29,8 +28,7 @@ const App = () => {
     <div className="App">
       <header>
         <nav className="navbar navbar-light" style={{ backgroundColor: '#F8F9FA' }}>
-          <div className="container">
-            
+          <div className="container d-flex justify-content-between">
             <div className="navbar-nav">
               <a className="nav-link" href="#home">
                 Home
